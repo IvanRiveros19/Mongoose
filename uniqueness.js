@@ -3,17 +3,17 @@ require("./connection");
 const User = require("./models/User");
 
 async function createUsers() {
-  const usuario = new User({
-    username: "Wendy",
-    password: "12345"
-  });
-  await usuario.save();
-
   const usuario1 = new User({
-    username: "Wendy",
-    password: "23456"
+    username: "Ivan",
+    password: "49324"
   });
   await usuario1.save();
+
+  const usuario2 = new User({
+    username: "Ivan",
+    password: "948732"
+  });
+  await usuario2.save();
 
 }
 

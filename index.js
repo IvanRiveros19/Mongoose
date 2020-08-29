@@ -3,8 +3,8 @@ require('./connection');
 const product = require('./models/product');
 
 const myProduct = new product({
-    nombre: 'laptop',
-    descripcion: 'hp pavilion',
+    nombre: 'Laptop',
+    descripcion: 'Acer Aspire ES',
     precio: 3899.99
 });
 

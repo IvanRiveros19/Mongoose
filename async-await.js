@@ -4,8 +4,8 @@ const Product = require('./models/Product')
 
 async function main() {
     const product  = new Product({
-        nombre: 'Monitor',
-        descripcion: 'Alta definicion',
+        nombre: 'Mouse',
+        descripcion: 'Mouse alambrico tipo gamer',
         precio: 350
     });
     const productSaved = await product.save();

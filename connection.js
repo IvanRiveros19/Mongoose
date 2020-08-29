@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 // localhost:27017
-const uri = "mongodb://127.0.0.1:27017/mitienda";
+const uri = "mongodb://127.0.0.1:27017/mystore";
 
 mongoose.connect(uri, {
     useNewUrlParser: true,
